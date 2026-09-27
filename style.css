@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Tesla;
+  src: url("TESLA.ttf");
+}
+
+body {
+  background-color: #fffff2;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #15b151;
+  text-decoration: none;
+}
+
+input[type="reset"]:hover {
+  background-color: #e3344b;
+  text-decoration: none;
+}
+
+#titre_accueil {
+  font-family: Tesla, sans-serif;
+  font-size: 1000%;
+  color: #326273;
+  text-align: center;
+  margin: 0;
+}
+
+#photo_accueil {
+  width: 40%;
+  display: block;
+  margin:  auto;
+}
+
+footer {
+  border: 3px solid #333;
+  border-radius: 5px;
+  position: absolute;
+  width: 95%;
+  text-align: center;
+  margin:  5px;
+  bottom : 0
+}
+
+.bou{
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.bou:hover{
+  background-color: #e3344b;
+  text-decoration: none;
+}
+
+
+/*-- Menu --*/
+.menu {
+  background-color: #fffff2;
+  padding: 1em;
+}
+
+#accueil {
+margin : 2px;
+text-align: center;
+font-weight: bold;
+}
+
+.menu h3 {
+  margin-top: 1em;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.menu a {
+  width: 80%;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #326273;
+  margin: 1px;
+  display: block;
+  color: white;
+  padding: 5px;
+  border: 3px solid #333;
+  border-radius: 5px;
+  transition: 0.2s linear;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #5c9ead;
+  text-decoration: none;
+  color: #333;
+}
+
+/* style pour les forms */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #335786;
+  padding: 20px;
+  border: 1px solid #79899c;
+  border-radius: 5px;
+ }
+
+
+
+ /* Style pour les tableaux */
+table {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #335786;
+  border: 1px solid #79899c;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Style pour les en-têtes de table */
+table th {
+  background-color: #79899c;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #335786;
+}
+
+/* Style pour les lignes de table */
+table tr {
+  border-bottom: 1px solid #79899c;
+}
+
+/* Style pour les cellules de table */
+table td {
+  padding: 10px;
+  color: white;
+  border-bottom: 1px solid #79899c;
+}

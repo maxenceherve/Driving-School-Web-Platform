@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"  />
+        <meta charset="utf-8" />
+        <title>ajout_eleve</title>
+    </head>
+    <body>
+        <h1>Ajouter un élève</h1>
+        <form class="annuler" method="post" action="valider_eleve.php">
+            <p><label for="nom">Nom :</label> <input id="nom" type="text" name="nom" value="" required /></p>
+
+            <p><label for="prenom">Prénom :</label> <input id="prenom" type="text" name="prenom" value="" required /></p>
+
+            <p><label for="date_naissance">Date de naissance :</label> <input id="date_naissance" type="date" name="date_naissance" value="" /></p>
+
+            <input type="submit" value="Valider" /> <input type="reset" value="Réinitialiser" />
+
+        </form>
+    </body>
+</html>
+
+
